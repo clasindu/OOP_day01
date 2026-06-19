@@ -14,4 +14,8 @@ public class User {
         System.out.println("Name :" + this.name + " , Email: " +this.email );
     }
 
+    public void fullInfo(){
+        this.displayInfo();
+    }
+
 }
