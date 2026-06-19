@@ -8,5 +8,9 @@ public class Main {
         User sajith=new User("Sajith Labdasa" , "autocrati@gamil.com");
         System.out.println(ranil.name);
         System.out.println(sajith.email);
+
+
+        ranil.displayInfo();
+        sajith.displayInfo();
     }
 }
