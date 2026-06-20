@@ -33,7 +33,6 @@ public class Main {
 
 
         MainMentor tutor = new MainMentor("Dilshara" ,"dilshara@gmail.com" , subjects ,4,2);
-        tutor.displayInfo();
 
     }
 
