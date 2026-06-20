@@ -22,4 +22,10 @@ public class Student extends User{
 
         this.studentID = studentID;
     }
+
+    @Override
+    public void displayInfo(){
+        super.displayInfo();
+        System.out.println("Student ID:" +this.studentID);
+    }
 }
